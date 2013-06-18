@@ -8,12 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+#import "SCViewController.h"
+
+#import "FacebookSDK/FacebookSDK.h"
+
+extern NSString *const SCSessionStateChangedNotification;
+
+//@class SCViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) SCViewController *viewController;
+
+@property (strong, nonatomic) SCViewController *mainViewController;
+
+@property (strong, nonatomic) UINavigationController *navController;
+
+- (void)openSession;
 
 @end
