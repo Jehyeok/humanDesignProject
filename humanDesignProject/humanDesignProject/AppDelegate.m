@@ -50,19 +50,9 @@ NSString *const SCSessionStateChangedNotification = @"com.facebook.Scrumptious:S
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-//    [QBSettings setApplicationID:2827];
-//    [QBSettings setAuthorizationKey:@"SmEvSteT7eheJXJ"];
-//    [QBSettings setAuthorizationSecret:@"yXYpdcnVDCsfXxj"];
-    
-    
-    
-    
-    
-    
     [FBProfilePictureView class];
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-//    self.window.backgroundColor = [UIColor colorWithRed:0x16/255 green:10 blue:10 alpha:1];
     self.mainViewController = [[SCViewController alloc] initWithNibName:@"SCViewController" bundle:nil];
     self.navController = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];
     self.window.rootViewController = self.navController;

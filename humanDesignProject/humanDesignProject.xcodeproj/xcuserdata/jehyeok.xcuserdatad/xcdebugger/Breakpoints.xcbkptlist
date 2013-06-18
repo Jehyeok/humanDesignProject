@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "humanDesignProject/AppDelegate.m"
-         timestampString = "391680680.464352"
+         timestampString = "393228780.986177"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "119"
-         endingLineNumber = "119"
+         startingLineNumber = "109"
+         endingLineNumber = "109"
          landmarkName = "-sessionStateChanged:state:error:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "humanDesignProject/SCViewController.m"
-         timestampString = "393168742.887555"
+         timestampString = "393228780.986177"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "136"
-         endingLineNumber = "136"
+         startingLineNumber = "129"
+         endingLineNumber = "129"
          landmarkName = "@implementation SCViewController"
          landmarkType = "3">
       </FileBreakpoint>

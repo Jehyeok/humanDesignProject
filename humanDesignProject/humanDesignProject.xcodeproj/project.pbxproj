@@ -47,6 +47,7 @@
 		47ACBB5C175ECE65004C1120 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ACBB5B175ECE65004C1120 /* libz.dylib */; };
 		47ACBB5E175ECE6C004C1120 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ACBB5D175ECE6B004C1120 /* libresolv.dylib */; };
 		47ACBB60175ECE73004C1120 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ACBB5F175ECE73004C1120 /* libxml2.dylib */; };
+		47B63DC31770354F001351E7 /* chat_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B63DC21770354F001351E7 /* chat_app.png */; };
 		47F04F55176858E4007A8407 /* login_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F04F52176858E4007A8407 /* login_app.png */; };
 		47F04F56176858E4007A8407 /* index_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F04F53176858E4007A8407 /* index_app.png */; };
 		47F04F59176868A5007A8407 /* main_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 47F04F58176868A5007A8407 /* main_app.png */; };
@@ -101,6 +102,7 @@
 		47ACBB5B175ECE65004C1120 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		47ACBB5D175ECE6B004C1120 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		47ACBB5F175ECE73004C1120 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		47B63DC21770354F001351E7 /* chat_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_app.png; sourceTree = "<group>"; };
 		47F04F52176858E4007A8407 /* login_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_app.png; sourceTree = "<group>"; };
 		47F04F53176858E4007A8407 /* index_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = index_app.png; sourceTree = "<group>"; };
 		47F04F58176868A5007A8407 /* main_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_app.png; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		4713A5D917488D9A006E2039 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				47B63DC21770354F001351E7 /* chat_app.png */,
 				47F04F58176868A5007A8407 /* main_app.png */,
 				47F04F52176858E4007A8407 /* login_app.png */,
 				47F04F53176858E4007A8407 /* index_app.png */,
@@ -310,6 +313,7 @@
 				47F04F55176858E4007A8407 /* login_app.png in Resources */,
 				47F04F56176858E4007A8407 /* index_app.png in Resources */,
 				47F04F59176868A5007A8407 /* main_app.png in Resources */,
+				47B63DC31770354F001351E7 /* chat_app.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

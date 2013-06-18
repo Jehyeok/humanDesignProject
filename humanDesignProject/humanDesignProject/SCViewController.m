@@ -87,16 +87,12 @@
 {
     self.jsonData = [[NSMutableData alloc] initWithCapacity:0];
     NSString *smsUrl = @"http://projectspark.dothome.co.kr/json.php";
-//    NSString *smsUrl = @"http://localhost/~jehyeok/projectspark/index.php";
     NSMutableURLRequest *request = [[[NSMutableURLRequest alloc] init] autorelease];
     
     NSString *post = [NSString stringWithFormat:@"%@?uid=%@", smsUrl, uid];
-//    NSString *post = [NSString stringWithFormat:@"uid=%@", uid];
     NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
     
-    // NSLog(@"%@", post);
-    // NSLog(@"%@", postLength);
     [request setURL:[NSURL URLWithString:post]];
     [request setHTTPMethod:@"POST"];
     [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
@@ -115,8 +111,6 @@
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
     self.jsonArray = [NSJSONSerialization JSONObjectWithData:self.jsonData options:NSJSONReadingAllowFragments error:nil];
-//    NSString *response = [NSString stringWithUTF8String:self.jsonData.bytes];
-    //NSLog(@"jsonArray = %@", self.jsonArray);
     NSLog(@"jsonArray = %@", self.jsonArray);
     
     self.userProfileImageYou.profileID = [self.jsonArray valueForKey:@"uid"];
@@ -128,7 +122,6 @@
 
 - (IBAction)goToMatchedViewController:(id)sender
 {
-//    NSLog(@"goToMatchedViewController");
     SCMatchedViewController *scmatchedViewController = [[SCMatchedViewController alloc] init];
     [self.navigationController pushViewController:scmatchedViewController animated:YES];
 }
